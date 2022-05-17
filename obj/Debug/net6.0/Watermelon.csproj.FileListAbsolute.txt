@@ -54,3 +54,4 @@ C:\Users\GinoZacc\source\repos\Watermelon\Watermelon\obj\Debug\net6.0\Watermelon
 C:\Users\GinoZacc\source\repos\Watermelon\Watermelon\obj\Debug\net6.0\ref\Watermelon.dll
 C:\Users\GinoZacc\source\repos\Watermelon\Watermelon\obj\Debug\net6.0\Watermelon.pdb
 C:\Users\GinoZacc\source\repos\Watermelon\Watermelon\obj\Debug\net6.0\Watermelon.genruntimeconfig.cache
+C:\Users\GinoZacc\source\repos\Watermelon\Watermelon\bin\Debug\net6.0\Microsoft.Extensions.Http.dll

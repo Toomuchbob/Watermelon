@@ -37,12 +37,23 @@ namespace Watermelon.Services
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
             _client.MessageReceived += OnMessageReceived;
+            _service.CommandExecuted += OnCommandExecuted;
             await _service.AddModulesAsync(Assembly.GetEntryAssembly(), _provider);
+        }
+
+        private async Task OnCommandExecuted(Optional<CommandInfo> commandInfo, ICommandContext commandContext, IResult result)
+        {
+            if (result.IsSuccess)
+            {
+                return;
+            }
+
+            await commandContext.Channel.SendMessageAsync(result.ErrorReason);
         }
 
         private async Task OnMessageReceived(SocketMessage socketMessage)
         {
-            if (!(socketMessage is SocketUserMessage message)) return;
+            if (socketMessage is not SocketUserMessage message) return;
             if (message.Source != MessageSource.User) return;
 
             var argPos = 0; // looks for the prefix of the message command as detailed in the config

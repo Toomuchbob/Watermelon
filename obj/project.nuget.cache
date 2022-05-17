@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KX7SjSnt0wxq7zMWVtIEW2AFN5Zs8Czxb8hGJb7uSAUvj+ijZ3ni0qxZK24P8agCyXsCr2BRLabjW13aLxEEBg==",
+  "dgSpecHash": "+BOM0AkXxl6JRm/KU86yC7v27SYCIU04/mmEyzVZx65oO7VHKf01IBX8aw+K7Bxku52GRD26qnRTYEF6U8u6Dw==",
   "success": true,
   "projectFilePath": "C:\\Users\\GinoZacc\\source\\repos\\Watermelon\\Watermelon\\Watermelon.csproj",
   "expectedPackageFiles": [
@@ -27,6 +27,7 @@
     "C:\\Users\\GinoZacc\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\6.0.0\\microsoft.extensions.filesystemglobbing.6.0.0.nupkg.sha512",
     "C:\\Users\\GinoZacc\\.nuget\\packages\\microsoft.extensions.hosting\\6.0.1\\microsoft.extensions.hosting.6.0.1.nupkg.sha512",
     "C:\\Users\\GinoZacc\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\6.0.0\\microsoft.extensions.hosting.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\GinoZacc\\.nuget\\packages\\microsoft.extensions.http\\6.0.0\\microsoft.extensions.http.6.0.0.nupkg.sha512",
     "C:\\Users\\GinoZacc\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
     "C:\\Users\\GinoZacc\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\GinoZacc\\.nuget\\packages\\microsoft.extensions.logging.configuration\\6.0.0\\microsoft.extensions.logging.configuration.6.0.0.nupkg.sha512",

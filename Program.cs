@@ -10,6 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Discord;
 using Discord.Commands;
 using Watermelon.Services;
+using Microsoft.Extensions.Http;
 
 namespace Watermelon
 {
@@ -52,7 +53,8 @@ namespace Watermelon
                 .ConfigureServices((context, services) =>
                 {
                     services
-                    .AddHostedService<CommandHandler>();
+                    .AddHostedService<CommandHandler>()
+                    .AddHttpClient();
                 })
                 .UseConsoleLifetime();
 
